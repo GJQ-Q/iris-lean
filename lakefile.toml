@@ -1,0 +1,10 @@
+name = "leanIrisXWorldResource"
+version = "0.21.0-candidate"
+defaultTargets = ["LeanIrisX", "LeanIrisXTests"]
+
+[[lean_lib]]
+name = "LeanIrisX"
+
+[[lean_lib]]
+name = "LeanIrisXTests"
+globs = ["LeanIrisX.Tests.+"]
